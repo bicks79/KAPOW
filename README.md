@@ -1,102 +1,188 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **KAPOW!** 
 
-Welcome bicks79,
+## **Milestone Project 4 - Fullstack Frameworks**
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+Insert site image here
 
-## Gitpod Reminders
+## TABLE OF CONTENTS
+---
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## [1|UX](#ux) 
+- [Project Goals](#project-goals)
+- [User Goals](#user-goals)
+- [Developer Goals](#developer-goals)
+- [User Stories](#user-stories)
+- [Design Choices](#design-choices)
+- [Wireframes](#wireframes)
+---
 
-`python3 -m http.server`
+## [2|FEATURES](#features)
+- [Existing Features](#existing-features)
+- [Applications](#applications)
+- [Future Implications](#future-implications)
+---
 
-A blue button should appear to click: _Make Public_,
+## [3|TECHNOLOGIES USED](#technologies-used)
+- [Development Environment](#development-environment)
+- [Languages](#languages)
+- [External Libraries](#external-libraries)
+- [Frameworks](#frameworks)
+- [Pre-Built Packages](#pre-built-packages)
+- [Validation Tools](#validation-tools)
+- [Other Technologies](#other-technologies)
+---
 
-Another blue button should appear to click: _Open Browser_.
+## [4|TESTING](#testing)
+- [Language Testing](#language-testing)
+- [Framework Testing](#framework-testing)
+- [Debugging](#debugging)
+---
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## [5|DEPLOYMENT](#deployment)
 
 ---
 
-Happy coding!
+## [6|CREDITS](#credits)
+- [Content](#content)
+- [Media](#media)
+- [Code](#code)
+- [Acknowledgements](#acknowledgements)
+
+---
+## UX
+---
+### PROJECT GOALS
+*The purpose of KAPOW! is...*
+
+### USER GOALS
+*KAPOW! is targeted at...*
+
+### DEVELOPER GOALS
+*As the developer of KAPOW!, the goal is to...*
+
+### USER STORIES
+*To ensure that user needs were met, KAPOW! was created with the following considerations...*
+
+Insert user stories excel sheet here.
+
+### DESIGN CHOICES
+*KAPOW! was created to be visually appealing by implementing the following design choices...*
+
+#### Structure & layout
+As an e-commerce site, KAPOW! needed to be structured in a way that would be familiar to users when shopping online.
+Providing a positive experience with secure, engaging features would encourage users to return to the site and make future purchases. 
+By employing the use of templates, the basic structure would be in place, and provide a solid platform on which to build the project.
+[Startbootstrap](https://startbootstrap.com/) creates free, open source, Bootstrap themes, templates, and code snippets for developers 
+to use on their projects. I found two templates in ['Shop Homepage'](https://startbootstrap.com/template/shop-homepage) and 
+['Shop Item'](https://startbootstrap.com/template/shop-item) that suited the requirements for KAPOW!
+
+Insert screencaps of startbootstrap templates here.
+
+
+### WIREFRAMES
+*KAPOW! was structured in the following way...*
+
+---
+## FEATURES
+---
+### EXISTING FEATURES
+*KAPOW! has utilised the following features...*
+
+### APPLICATIONS
+*KAPOW! has utilised the following applications...*
+
+
+### FUTURE IMPLICATIONS
+*KAPOW! has the potential to include the following functions...*
+
+---
+## TECHNOLOGIES USED
+---
+
+### DEVELOPMENT ENVIRONMENT
+*The following development environment was used in the creation of KAPOW!*
+ - [Github](https://en.wikipedia.org/wiki/GitHub), is a provider of Internet hosting for software development and version control using Git. 
+ It offers the distributed version control and source code management functionality of Git, plus its own features.
+
+ - [GitPod](https://github.com/gitpod-io/gitpod#readme), is an open-source Kubernetes application for automated and ready-to-code development environments that blends in your existing workflow. 
+ It enables you to describe your dev environment as code and start instant and fresh development environments for each new task directly from your browser.
+
+### LANGUAGES
+*The following languages were used in the creation of KAPOW!...*
+
+#### Frontend
+ - [HTML5](https://en.wikipedia.org/wiki/HTML5), is a markup language used for structuring and presenting 
+ content on the World Wide Web. It is the fifth and last major HTML version that is a World Wide Web Consortium recommendation. 
+ The current specification is known as the HTML Living Standard.
+
+ - [CSS3](https://en.wikipedia.org/wiki/CSS), is a style sheet language used for describing the presentation of a document written 
+ in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+
+ - [JavaScript](https://en.wikipedia.org/wiki/JavaScript), often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. 
+ JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, 
+ prototype-based object-orientation, and first-class functions.
+
+#### Backend
+ - [Python](https://en.wikipedia.org/wiki/Python_(programming_language)), is an interpreted high-level general-purpose programming language. 
+ Python's design philosophy emphasizes code readability with its notable use of significant indentation.
+
+### EXTERNAL LIBRARIES
+*The following libraries were used in the creation of KAPOW!...*
+
+### FRAMEWORKS
+*The following frameworks were used in the creation of KAPOW!...*
+
+ - [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)), is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. 
+ It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+
+ - [Django](https://en.wikipedia.org/wiki/Django_(web_framework)), is a Python-based free and open-source web framework that 
+ follows the model–template–views architectural pattern. It is maintained by the Django Software Foundation, an American independent organization.
+
+### PRE-BUILT PACKAGES
+*KAPOW! hs utilised the following pre-built packages...*
+ - [django-allauth](https://django-allauth.readthedocs.io/en/latest/), is an integrated set of Django applications addressing authentication, 
+ registration, account management as well as 3rd party (social) account authentication.
+
+### VALIDATION TOOLS
+*KAPOW! was validated by utilising the following tools...*
+
+### OTHER TECHNOLOGIES
+*KAPOW! has utilised the following software to enhance the project*
+ - [GIMP](https://en.wikipedia.org/wiki/GIMP), is a free and open-source raster graphics editor used for image manipulation and image editing, 
+free-form drawing, transcoding between different image file formats, and more specialized tasks. 
+GIMP is released under GPL-3.0-or-later license and is available for Linux, macOS, and Microsoft Windows.
+
+*At the time of submission, all information provided about the above technologies was correct.* 
+
+---
+## TESTING
+### LANGUAGE TESTING
+
+### FRAMEWORK TESTING
+
+### DEBUGGING
+---
+
+---
+## DEPLOYMENT
+---
+
+---
+## CREDITS
+---
+### CONTENT
+*KAPOW! has utilised the following content...*
+
+### MEDIA
+*KAPOW! has utilised the following media...*
+- KAPOW! hero image provided by [Pixabay](https://pixabay.com/illustrations/kapow-comic-comic-book-fight-1601675/)
+
+### CODE
+*KAPOW! has utilised the following pre-written code...*
+- For HTML templates used to structure the layout of KAPOW!
+    - Startbootstrap [Shop Homepage](https://startbootstrap.com/template/shop-homepage)
+    - Startbootstrap [Shop Item](https://startbootstrap.com/template/shop-item)
+
+
+### ACKNOWLEDGEMENTS
+*As the developer of KAPOW!, I would like to acknowledge the following people...* 
