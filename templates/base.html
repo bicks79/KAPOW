@@ -17,7 +17,70 @@
     <title>KAPOW!{% block extra_title %}{% endblock %}</title>
 </head>
 <body>
-    <header class="container-fluid fixed-top"></header>
+    <header class="container-fluid fixed-top">
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <a href="{% url 'home' %}" class="nav-link">
+                    <h2 class="brand-text">KAPOW!</h2>
+                </a>
+            </div>
+            <div class="col-12 col-lg-4">
+                <form method="GET" action="">
+                    <div class="input-group w-100">
+                        <input class="form-control" type="text" name="q" placeholder="Search KAPOW!">
+                        <div class="input-group-append">
+                            <button class="form-control" type="submit">
+                                <span class="icon">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-lg-4">
+                <ul class="list-inline">
+                    <li class="list-inline-item dropdown">
+                        <a href="#" class="nav-link" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="searchbar">
+                                <div>
+                                    <i class="fas fa-user fa-lg"></i>
+                                </div>
+                                <p class="account-text">My Account</p>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="user-options">
+                            {% if request.user.is_authenticated %}
+                                {% if request.user.is_superuser %}
+                                    <a href="" class="dropdown-item">Product Management</a>
+                                {% endif %}
+                                <a href="" class="dropdown-item">My Profile</a>
+                                <a href="{% url 'user_logout' %}" class="dropdown-item">Logout</a>
+                            {% else %}
+                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                            {% endif %}
+                        </div>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="" class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"></a>
+                        <div>
+                            <div class="shopping-basket">
+                                <i class="fas fa-shopping-bag"></i>
+                            </div>
+                            <p class="">
+                                {% if grand_total %}
+                                    £{{ if grand_total|floatformat:2 }}
+                                {% else %}
+                                    £0.00
+                                {% endif %}
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
 
     {% if messages %}
         <div class="container-messages"></div>
