@@ -3,8 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/kapow-image.png') no-repeat center center fixed;
-    background-size: cover;
+    background: url('/media/kapow-image.png') no-repeat center right fixed;
     height: calc(100vh - 164px);
     font-family: 'Raleway', sans-serif;
     color: #000;
