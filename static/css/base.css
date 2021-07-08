@@ -2,14 +2,100 @@ html {
     height: 100%;
 }
 
-body {
-    background: url('/media/kapow-image.png') no-repeat center right fixed;
+/*---------------------------------------- base.html ---*/
+.brand-nav-link {
+    width: fit-content;
+    color: #0e0e10;
+    text-decoration: none;
+}
+
+.account-icon,
+.shopping-basket {
+    text-align: center;
+}
+
+/*www.codegrepper.com*/
+a, 
+a:hover, 
+a:focus, 
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.brand-text {
+    font-weight: bolder;
+}
+
+/*---------------------------------------- block content index.html ---*/
+
+body{
     height: calc(100vh - 164px);
     font-family: 'Raleway', sans-serif;
-    color: #000;
+    color: #0e0e10;
 }
+
+.kapow-image {
+    margin-top: 50px;
+}
+
+.cta-text {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color:#0e0e10;
+    color: #ecece7;
+    text-transform: uppercase;
+}
+
+/*w3 schools*/
+.btn--cta {
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn--cta span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn--cta span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.btn--cta:hover span {
+    padding-right: 25px;
+}  
+
+.btn--cta:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
 .header-container {
     padding-top: 164px;
 }
 
+/*---------------------------------------- media queries ---*/
+
+@media (min-width: 992px)
+.header-container{
+    padding-top: 164px;
+}

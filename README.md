@@ -13,6 +13,7 @@ Insert site image here
 - [Developer Goals](#developer-goals)
 - [User Stories](#user-stories)
 - [Design Choices](#design-choices)
+- [Colourscheme](#colourscheme)
 - [Wireframes](#wireframes)
 ---
 
@@ -74,9 +75,15 @@ Providing a positive experience with secure, engaging features would encourage u
 By employing the use of templates, the basic structure would be in place, and provide a solid platform on which to build the project.
 [Startbootstrap](https://startbootstrap.com/) creates free, open source, Bootstrap themes, templates, and code snippets for developers 
 to use on their projects. I found two templates in ['Shop Homepage'](https://startbootstrap.com/template/shop-homepage) and 
-['Shop Item'](https://startbootstrap.com/template/shop-item) that suited the requirements for KAPOW!
+['Shop Item'](https://startbootstrap.com/template/shop-item) that were ideal for me to base KAPOW! on.
 
 Insert screencaps of startbootstrap templates here.
+
+#### Colourscheme
+The idea of KAPOW!, was to create a comic book like site that would provide familiarity to its users. 
+The colourscheme needed to reflect that, so I played around with the use of bold colours and stark contrast to re-create the 
+feel of a comic book.  [RALcolorchart.com](https://www.ralcolorchart.com/), had a wide range of colours to choose from and 
+provided HEX, RGB and CMYK code to use.
 
 
 ### WIREFRAMES
@@ -101,6 +108,7 @@ Insert screencaps of startbootstrap templates here.
 
 ### DEVELOPMENT ENVIRONMENT
 *The following development environment was used in the creation of KAPOW!*
+
  - [Github](https://en.wikipedia.org/wiki/GitHub), is a provider of Internet hosting for software development and version control using Git. 
  It offers the distributed version control and source code management functionality of Git, plus its own features.
 
@@ -140,6 +148,7 @@ Insert screencaps of startbootstrap templates here.
 
 ### PRE-BUILT PACKAGES
 *KAPOW! hs utilised the following pre-built packages...*
+
  - [django-allauth](https://django-allauth.readthedocs.io/en/latest/), is an integrated set of Django applications addressing authentication, 
  registration, account management as well as 3rd party (social) account authentication.
 
@@ -148,6 +157,7 @@ Insert screencaps of startbootstrap templates here.
 
 ### OTHER TECHNOLOGIES
 *KAPOW! has utilised the following software to enhance the project*
+
  - [GIMP](https://en.wikipedia.org/wiki/GIMP), is a free and open-source raster graphics editor used for image manipulation and image editing, 
 free-form drawing, transcoding between different image file formats, and more specialized tasks. 
 GIMP is released under GPL-3.0-or-later license and is available for Linux, macOS, and Microsoft Windows.
@@ -173,12 +183,20 @@ GIMP is released under GPL-3.0-or-later license and is available for Linux, macO
 ### CONTENT
 *KAPOW! has utilised the following content...*
 
+- The colour-scheme of KAPOW! was created with
+    - [RALcolorchart.com](https://www.ralcolorchart.com/)
+    - Signal white, [RAL9003](https://www.ralcolorchart.com/ral-classic/ral-9003-signal-white)
+    - Jet black, [RAL9005](https://www.ralcolorchart.com/ral-classic/ral-9005-jet-black)
+
 ### MEDIA
 *KAPOW! has utilised the following media...*
+
 - KAPOW! hero image provided by [Pixabay](https://pixabay.com/illustrations/kapow-comic-comic-book-fight-1601675/)
+
 
 ### CODE
 *KAPOW! has utilised the following pre-written code...*
+
 - For HTML templates used to structure the layout of KAPOW!
     - Startbootstrap [Shop Homepage](https://startbootstrap.com/template/shop-homepage)
     - Startbootstrap [Shop Item](https://startbootstrap.com/template/shop-item)
