@@ -53,12 +53,86 @@ body{
     margin: 45px 0px 25px;
 }
 
+/*---------------------------------------- buttons ---*/
+
 .btn {
-    background-color:#0e0e10;
+    background-color: #ff0000;
     color: #ecece7;
     text-transform: uppercase;
     border: none;
 }
+
+/*Boutique Ado*/
+.btn--search:hover,
+.btn--search:active,
+.btn--search:focus {
+    background: #0e0e10;
+    color: #ecece7;
+}
+
+/* Pulse Grow - Ian Lunn */
+@-webkit-keyframes account-icon {
+    to {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+  @keyframes account-icon {
+    to {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+  .account-icon {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .account-icon:hover, .account-icon:focus, .account-icon:active {
+    -webkit-animation-name: account-icon;
+    animation-name: account-icon;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
+
+/* Pulse Grow - Ian Lunn */
+@-webkit-keyframes shopping-basket {
+    to {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+  @keyframes shopping-basket {
+    to {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+  .shopping-basket {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .shopping-basket:hover, .shopping-basket:focus, .shopping-basket:active {
+    -webkit-animation-name: shopping-basket;
+    animation-name: shopping-basket;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
 
 /*w3 schools*/
 .btn--cta {
@@ -76,6 +150,7 @@ body{
     display: inline-block;
     position: relative;
     transition: 0.5s;
+    color: #ecece7;
 }
 
 .btn--cta span:after {
@@ -85,6 +160,7 @@ body{
     top: 0;
     right: -20px;
     transition: 0.5s;
+    color: #ecece7;
 }
   
 .btn--cta:hover span {
@@ -94,7 +170,18 @@ body{
 .btn--cta:hover span:after {
     opacity: 1;
     right: 0;
-  }
+}
+
+/*---------------------------------------- base.html ---*/
+.form-control {
+    border: 1px solid;
+    border-color: #0e0e10;
+}
+
+.btn--search {
+    background-color: #fff;
+    color: #0e0e10;
+}
 
 
 /*---------------------------------------- media queries (768px) ---*/
