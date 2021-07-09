@@ -34,27 +34,34 @@ body{
     height: calc(100vh - 164px);
     font-family: 'Raleway', sans-serif;
     color: #0e0e10;
+    max-width: 95%;
+}
+
+.hero-image,
+.hero-text {
+    text-align: center;
 }
 
 .kapow-image {
-    margin-top: 50px;
+    margin-top: 65px;
+    width: 80%;
 }
 
 .cta-text {
+    font-size: 32px;
     font-weight: 500;
-    margin-bottom: 25px;
+    margin: 45px 0px 25px;
 }
 
 .btn {
     background-color:#0e0e10;
     color: #ecece7;
     text-transform: uppercase;
+    border: none;
 }
 
 /*w3 schools*/
 .btn--cta {
-    border-radius: 4px;
-    border: none;
     text-align: center;
     font-size: 24px;
     padding: 20px;
@@ -89,13 +96,40 @@ body{
     right: 0;
   }
 
+
+/*---------------------------------------- media queries (768px) ---*/
+@media (min-width: 768px) {
+.cta-text{
+    font-size: 65px;
+}
+}
+
+/*---------------------------------------- media queries (992px) ---*/
+
+/*CI-Boutique Ado*/
+@media (min-width: 992px) {
+.fixed-top-desktop-only{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
 .header-container {
     padding-top: 164px;
 }
 
-/*---------------------------------------- media queries ---*/
+.kapow-image {
+    margin-top: 75px;
+}
 
-@media (min-width: 992px)
-.header-container{
-    padding-top: 164px;
+.hero-text {
+    padding-right: 90px;
+}
+
+.cta-text {
+    font-size: 45px;
+}
+
 }
