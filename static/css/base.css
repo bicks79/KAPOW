@@ -28,6 +28,11 @@ a:active {
     font-weight: bolder;
 }
 
+.free-delivery-banner {
+    background-color: #0e0e10;
+    color: #ecece7;
+}
+
 /*---------------------------------------- block content index.html ---*/
 
 body{
@@ -87,7 +92,6 @@ body{
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   }
   .account-icon:hover, .account-icon:focus, .account-icon:active {
     -webkit-animation-name: account-icon;
@@ -119,7 +123,6 @@ body{
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   }
   .shopping-basket:hover, .shopping-basket:focus, .shopping-basket:active {
     -webkit-animation-name: shopping-basket;
@@ -184,13 +187,28 @@ body{
 }
 
 
+/*---------------------------------------- mobile_top_header.html ---*/
+.nav-link-mobile {
+    padding: 3px;
+}
+
+
+.mobile-dropdown {
+    padding-left: 0px;
+    margin: 0 auto;
+}
+
 /*---------------------------------------- media queries (768px) ---*/
 @media (min-width: 768px) {
 .cta-text{
     font-size: 65px;
 }
+
+.kapow-image {
+    margin-top: 100px;
 }
 
+}
 /*---------------------------------------- media queries (992px) ---*/
 
 /*CI-Boutique Ado*/
@@ -208,7 +226,7 @@ body{
 }
 
 .kapow-image {
-    margin-top: 75px;
+    margin-top: 200px;
 }
 
 .hero-text {
@@ -216,6 +234,7 @@ body{
 }
 
 .cta-text {
+    margin-top: 180px;
     font-size: 45px;
 }
 
