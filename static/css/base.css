@@ -14,7 +14,7 @@ html {
     text-align: center;
 }
 
-/*www.codegrepper.com*/
+/*--- www.codegrepper.com ---*/
 a, 
 a:hover, 
 a:focus, 
@@ -28,9 +28,25 @@ a:active {
     font-weight: bolder;
 }
 
+/*---------------------------------------- delivery banner base.html ---*/
+
 .free-delivery-banner {
     background-color: #0e0e10;
     color: #ecece7;
+}
+
+.free-delivery-text {
+    font-size: 16px;
+}
+
+.free-delivery-icon-left {
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+.free-delivery-icon-right {
+    padding-left: 5px;
+    padding-right: 0px;
 }
 
 /*---------------------------------------- block content index.html ---*/
@@ -48,7 +64,7 @@ body{
 }
 
 .kapow-image {
-    margin-top: 65px;
+    margin-top: 164px;
     width: 80%;
 }
 
@@ -67,7 +83,7 @@ body{
     border: none;
 }
 
-/*Boutique Ado*/
+/*--- Boutique Ado ---*/
 .btn--search:hover,
 .btn--search:active,
 .btn--search:focus {
@@ -75,25 +91,29 @@ body{
     color: #ecece7;
 }
 
-/* Pulse Grow - Ian Lunn */
+/*--- pulse grow - Ian Lunn ---*/
+/*--- account icon ---*/
 @-webkit-keyframes account-icon {
     to {
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
     }
-  }
-  @keyframes account-icon {
+}
+
+@keyframes account-icon {
     to {
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
     }
-  }
-  .account-icon {
+}
+
+.account-icon {
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-  }
-  .account-icon:hover, .account-icon:focus, .account-icon:active {
+}
+
+.account-icon:hover, .account-icon:focus, .account-icon:active {
     -webkit-animation-name: account-icon;
     animation-name: account-icon;
     -webkit-animation-duration: 0.3s;
@@ -104,27 +124,30 @@ body{
     animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
-  }
+}
 
-/* Pulse Grow - Ian Lunn */
+/*--- shopping basket ---*/
 @-webkit-keyframes shopping-basket {
     to {
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
     }
-  }
-  @keyframes shopping-basket {
+}
+
+@keyframes shopping-basket {
     to {
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
     }
-  }
-  .shopping-basket {
+}
+
+.shopping-basket {
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-  }
-  .shopping-basket:hover, .shopping-basket:focus, .shopping-basket:active {
+}
+
+.shopping-basket:hover, .shopping-basket:focus, .shopping-basket:active {
     -webkit-animation-name: shopping-basket;
     animation-name: shopping-basket;
     -webkit-animation-duration: 0.3s;
@@ -135,9 +158,9 @@ body{
     animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
-  }
+}
 
-/*w3 schools*/
+/*--- w3 schools ---*/
 .btn--cta {
     text-align: center;
     font-size: 24px;
@@ -204,8 +227,29 @@ body{
     font-size: 65px;
 }
 
-.kapow-image {
-    margin-top: 100px;
+/*--- mobile-top-header.html---*/
+.mobile-dropdown {
+    display: contents;
+}
+
+.navbar-expand-lg {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*--- delivery banner ---*/
+.free-delivery-text {
+    font-size: 1.5rem;
+}
+
+.free-delivery-icon-left {
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+.free-delivery-icon-right {
+    padding-left: 15px;
+    padding-right: 0px;
 }
 
 }
@@ -223,6 +267,10 @@ body{
 
 .header-container {
     padding-top: 164px;
+}
+
+.user-options {
+    padding-right: 30px;
 }
 
 .kapow-image {

@@ -185,8 +185,10 @@ GIMP is released under GPL-3.0-or-later license and is available for Linux, macO
 
 - The colour-scheme of KAPOW! was created with
     - [RALcolorchart.com](https://www.ralcolorchart.com/)
-    - Signal white, [RAL9003](https://www.ralcolorchart.com/ral-classic/ral-9003-signal-white)
-    - Jet black, [RAL9005](https://www.ralcolorchart.com/ral-classic/ral-9005-jet-black)
+        - Signal white, [RAL9003](https://www.ralcolorchart.com/ral-classic/ral-9003-signal-white)
+        - Jet black, [RAL9005](https://www.ralcolorchart.com/ral-classic/ral-9005-jet-black)
+    - [imagecolorpicker.com](https://imagecolorpicker.com/)
+
 
 ### MEDIA
 *KAPOW! has utilised the following media...*
@@ -198,8 +200,12 @@ GIMP is released under GPL-3.0-or-later license and is available for Linux, macO
 *KAPOW! has utilised the following pre-written code...*
 
 - For HTML templates used to structure the layout of KAPOW!
-    - Startbootstrap [Shop Homepage](https://startbootstrap.com/template/shop-homepage)
-    - Startbootstrap [Shop Item](https://startbootstrap.com/template/shop-item)
+    - Startbootstrap - [Shop Homepage](https://startbootstrap.com/template/shop-homepage)
+    - Startbootstrap - [Shop Item](https://startbootstrap.com/template/shop-item)
+
+- For button effects and animations
+    - Grow effect - [Hover.css](https://ianlunn.github.io/Hover/)
+    - Shop now animation - [W3schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate1)
 
 
 ### ACKNOWLEDGEMENTS
