@@ -136,6 +136,9 @@ provided HEX, RGB and CMYK code to use.
 
 ### EXTERNAL LIBRARIES
 *The following libraries were used in the creation of KAPOW!...*
+- [jQuery](https://en.wikipedia.org/wiki/JQuery), is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License.
+
+- [Font Awesome](https://en.wikipedia.org/wiki/Font_Awesome), Font Awesome is a font and icon toolkit based on CSS and Less. As of 2020, Font Awesome was used by 38% of sites that use third-party font scripts, placing Font Awesome in second place after Google Fonts.
 
 ### FRAMEWORKS
 *The following frameworks were used in the creation of KAPOW!...*
@@ -151,6 +154,8 @@ provided HEX, RGB and CMYK code to use.
 
  - [django-allauth](https://django-allauth.readthedocs.io/en/latest/), is an integrated set of Django applications addressing authentication, 
  registration, account management as well as 3rd party (social) account authentication.
+
+ - [Pillow](https://en.wikipedia.org/wiki/Python_Imaging_Library), is a free and open-source additional library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats. Development of the original project, known as PIL, was discontinued in 2011. Subsequently, a successor project named Pillow forked the PIL repository and added Python 3.x support.
 
 ### VALIDATION TOOLS
 *KAPOW! was validated by utilising the following tools...*
@@ -171,6 +176,22 @@ GIMP is released under GPL-3.0-or-later license and is available for Linux, macO
 ### FRAMEWORK TESTING
 
 ### DEBUGGING
+-Issue 1
+    -Initial setup of the project utilised the most up to date versions of Django/bootstrap.
+    However, as I had decided to use the 'Boutique Ado' mini project to help structure my project, 
+    it became apparent that some of the functions did not work as both Django and bootstrap had undergone updates.
+    To fix this issue, it required reverting to earlier versions of Django/boostrap, and a small tutor
+    support session to help ensure that everything would work correctly.
+
+- Issue 2
+    -While creating the database for my project, I ran into an issue when trying to upload the products.json file I had created.
+    I did not have an issue when loading the previous categories.json file, so the bug had to be located within the code for my products.json file.  I tried various amendments to the file, scanning back over the terminal to find the root cause.  I had very little success so decided to contact tutor support to guide me through the problem as swiftly as possible.
+    After going over the issue with tutor support, the issue I was having related to me adding the dimensions field into the file after I had ran migrations.  Once I re-ran migrations, and assigned a random string value to the field, the products file loaded without issue. 
+
+
+
+
+
 ---
 
 ---
@@ -205,7 +226,7 @@ GIMP is released under GPL-3.0-or-later license and is available for Linux, macO
 
 - For button effects and animations
     - Grow effect - [Hover.css](https://ianlunn.github.io/Hover/)
-    - Shop now animation - [W3schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate1)
+    - Shop now animation - [W3 schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate1)
 
 
 ### ACKNOWLEDGEMENTS

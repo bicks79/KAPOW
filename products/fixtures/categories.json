@@ -1,0 +1,34 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "name": "gaming",
+        "friendly_name": "Gaming"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.category",
+      "fields": {
+        "name": "film_tv",
+        "friendly_name": "Film & TV"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.category",
+      "fields": {
+        "name": "marvel",
+        "friendly_name": "Marvel"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
+        "name": "dc_comics",
+        "friendly_name": "DC Comics"
+      }
+    }
+  ]
