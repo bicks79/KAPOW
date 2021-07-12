@@ -270,6 +270,21 @@
       }
     },
     {
+      "pk": 19,
+      "model": "products.product",
+      "fields": {
+        "sku": "KPW019",
+        "name": "Gandalf",
+        "description": "Gandalf the Gray, came from the West of Middle Earth in the Third Age to fight Sauron. Gandalf accompanied Thorin II Shield of Oak in the mission to recover Erebor and later was a member of the Fellowship of the Ring.",
+        "dimensions": "9.0 (H) x 6.6 (W) x 6.6 (L)",
+        "price": 129.99,
+        "category": 2,
+        "rating": 4.7,
+        "image_url": "",
+        "image": "KPW018_LOTR_Gandalf_380x380.png"
+      }
+    },
+    {
       "pk": 20,
       "model": "products.product",
       "fields": {

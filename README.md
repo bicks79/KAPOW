@@ -186,7 +186,7 @@ GIMP is released under GPL-3.0-or-later license and is available for Linux, macO
 - Issue 2
     -While creating the database for my project, I ran into an issue when trying to upload the products.json file I had created.
     I did not have an issue when loading the previous categories.json file, so the bug had to be located within the code for my products.json file.  I tried various amendments to the file, scanning back over the terminal to find the root cause.  I had very little success so decided to contact tutor support to guide me through the problem as swiftly as possible.
-    After going over the issue with tutor support, the issue I was having related to me adding the dimensions field into the file after I had ran migrations.  Once I re-ran migrations, and assigned a random string value to the field, the products file loaded without issue. 
+    After going over the issue with tutor support, the issue I was having related to me adding the dimensions field into the file after I had ran migrations.  Once I re-ran migrations, and assigned a random string value to the field, the products file loaded without issue.   
 
 
 
