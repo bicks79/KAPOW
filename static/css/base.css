@@ -111,6 +111,26 @@ body{
     margin-bottom: 30px;
 }
 
+/*---------------------------------------- block content product_details.html ---*/
+
+.product-image {
+    padding-top: 125px;
+    padding-bottom: 30px;
+}
+
+.product-description {
+    text-align: justify;
+}
+
+.product-price-detail {
+    margin-bottom: 5px;
+}
+
+.product-description {
+    margin-top: 20px;
+}
+
+
 /*---------------------------------------- buttons ---*/
 
 .btn {
@@ -289,6 +309,15 @@ body{
     padding-right: 0px;
 }
 
+/*product_detail.html*/
+.product-image {
+    padding-top: 180px;
+}
+
+.product-information{
+    padding-top: 230px;
+    padding-left: 0px;
+}
 }
 /*---------------------------------------- media queries (992px) ---*/
 
@@ -326,6 +355,17 @@ body{
 .cta-text {
     margin-top: 180px;
     font-size: 45px;
+}
+
+/*product_detail.html*/
+.product-image {
+    padding-top: 260px;
+}
+
+.product-information{
+    padding-top: 290px;
+    padding-left: 15px;
+    padding-right: 0px;
 }
 
 }
