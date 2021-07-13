@@ -8,7 +8,7 @@
         "description": "The eagerly awaited Scorpion Art Scale 1/10 Statue, accurately captures the essence one of the most popular characters in the Mortal Kombat series. One of the few to debut in the first Mortal Kombat arcade game, appearing in all future versions.",
         "dimensions": "8.9 (H) x 4.7 (W) x 4.3 (L)",
         "price": 179.99,
-        "category": 1,
+        "category": 6,
         "rating": 4.6,
         "image_url": "",
         "image": "KPW001_MK_Scorpion_380x380.png"
@@ -23,7 +23,7 @@
         "description": "The temperature drops as tempers heat up, with one of Mortal Kombat’s most famous characters arriving to expand the collection with the Sub-Zero Art Scale 1/10 Statue. One of the few original characters to appear in the first Mortal Komat arcade game, appearing in all future versions.",
         "dimensions": "9.0 (H) x 5.5 (W) x 5.1 (L)",
         "price": 179.99,
-        "category": 1,
+        "category": 6,
         "rating": 4.6,
         "image_url": "",
         "image": "KPW002_MK_SubZero_380x380.png"
@@ -38,7 +38,7 @@
         "description": "Inspired by the look presented in the Mortal Kombat II game, 'God of Thunder' the Raiden Art Scale 1/10 statue, is displayed on a rustic altar base from the kingdom of Outworld, with bones and chains at his feet, skulls carved in small columns around him and the dragon symbol of the ancient tournament on the front.",
         "dimensions": "9.4 (H) x 6.6 (W) x 5.5 (L)",
         "price": 169.99,
-        "category": 1,
+        "category": 6,
         "rating": 4.6,
         "image_url": "",
         "image": "KPW003_MK_Raiden_380x380.png"
@@ -53,7 +53,7 @@
         "description": "The powerful world-conquering giant of one of the most popular fighting tournament games, has arrived from Mortal Kombat, with the Shao Kahn Deluxe Art Scale 1/10 statue, inspired by Mortal Kombat II, second game of popular series.",
         "dimensions": "9.8 (H) x 7.8 (W) x 7.8 (L)",
         "price": 199.99,
-        "category": 1,
+        "category": 6,
         "rating": 4.8,
         "image_url": "",
         "image": "KPW004_MK_SaoKahn_380x380.png"
@@ -68,7 +68,7 @@
         "description": "From the darkest corners of the planet called the Third World, the ThunderCats greatest enemy, Mumm-Ra, the Eternal Being, with his powerful muscles, is displayed on a base in the shape of an altar, referring to the interior of his Black Pyramid, amid the ruins of what appears to be an ancient civilization with Egyptian characteristics.",
         "dimensions": "11 (H) x 10.6 (W) x 6.6 (L)",
         "price": 229.99,
-        "category": 2,
+        "category": 5,
         "rating": 4.7,
         "image_url": "",
         "image": "KPW005_TC_MummRa_380x380.png"
@@ -83,7 +83,7 @@
         "description": "Lion-O is the leader of the ThunderCats, and bearer of the Sword of Omens, a weapon that has mystical powers and is used to call the Thundercats when there is danger.  Snarf is the mascot of the Thundercat´s and former nanny of the young Lion-O, friendly, grumpy and fun.",
         "dimensions": "16.9 (H) x 5.9 (W) x 8.2 (L)",
         "price": 199.99,
-        "category": 2,
+        "category": 5,
         "rating": 4.7,
         "image_url": "",
         "image": "KPW006_TC_LionO_380x380.png"
@@ -98,7 +98,7 @@
         "description": "Panthro possess great physical strength and is a master in martial arts. He is an expert in mechanics and advanced technology, building all of the Thundercats weapons and vehicles from the remains of their crashed Thundarian Flagship.",
         "dimensions": "14.0 (H) x 10.0 (W) x 8.0 (L)",
         "price": 189.99,
-        "category": 2,
+        "category": 5,
         "rating": 4.5,
         "image_url": "",
         "image": "KPW007_TC_Panthro_380x380.png"
@@ -113,7 +113,7 @@
         "description": "Cheetara, is a great warrior with impressive fighting skills and super speed.  Cheetara also possess psychic powers, enabling her to have premonitions and visions.  Her main weapon is the bo staff, which is attached to a cuff on her arm when not in use. It can extend to any length, and shoots out energy beams.",
         "dimensions": "12.0 (H) x 12.0 (W) x 7.0(L)",
         "price": 189.99,
-        "category": 2,
+        "category": 5,
         "rating": 4.5,
         "image_url": "",
         "image": "KPW008_TC_Cheetara_380x380.png"
@@ -128,7 +128,7 @@
         "description": "Tygra is one of the most powerful and versatile Thundercats, he is a respected scientist and experienced architect, responsible for the creation and construction of the Thundercat's home, The Cat´s Lair. He is also the group’s deputy leader, taking charge of group in situations where Lion-O is not able to do so.",
         "dimensions": "11.8 (H) x 5.1 (W) x 7.0 (L)",
         "price": 189.99,
-        "category": 2,
+        "category": 5,
         "rating": 4.6,
         "image_url": "",
         "image": "KPW009_TC_Tygra_380x380.png"
@@ -143,7 +143,7 @@
         "description": "Willy Kit & Willy Kat are the youngest of the Thundercat group. Willy Kat is a curious, playful and quite clumsy, unlike his sister Willy Kit who is more assured. Their weapons are special strings and explosive capsules with several different effects.",
         "dimensions": "12.0 (H) x 12.0 (W) x 7.0(L)",
         "price": 199.99,
-        "category": 2,
+        "category": 5,
         "rating": 4.7,
         "image_url": "",
         "image": "KPW010_TC_KitKat_380x380.png"
@@ -158,7 +158,7 @@
         "description": "This statue commemorates Iron Man final heroic moment in the saga, his sacrifice to eradicate Thanos´ existence. Celebrating 10 years of Robert Downey Jr. in the Marvel Cinematic Universe.",
         "dimensions": "5.9 (H) x 5.5 (W) x 5.9 (L)",
         "price": 149.99,
-        "category": 3,
+        "category": 8,
         "rating": 4.4,
         "image_url": "",
         "image": "KPW011_MAE_Ironman_380x380.png"
@@ -173,7 +173,7 @@
         "description": "This Deluxe statue of Captain America includes an arm with shield, an arm with Mjölnir, arm with broken shield and pieces of broken shield and an extra arm with no accessories.",
         "dimensions": "8.3 (H) x 3.9 (W) x 5.9 (L)",
         "price": 129.99,
-        "category": 3,
+        "category": 8,
         "rating": 4.4,
         "image_url": "",
         "image": "KPW012_MAE_CaptainAmerica_380x380.png"
@@ -188,7 +188,7 @@
         "description": "Thor is the prince of Asgard, Son of Odin, and God of Thunder. He is arrogant and impulsive. Thor owns the magic hammer Mjölnir and is a founding member of the Avengers as one of Marvel’s most powerful superheroes.",
         "dimensions": "10.6 (H) x 5.9 (W) x 8.7 (L)",
         "price": 129.99,
-        "category": 3,
+        "category": 8,
         "rating": 4.6,
         "image_url": "",
         "image": "KPW014_MAE_Thor_380x380.png"
@@ -203,7 +203,7 @@
         "description": "Anthony Mackie portrays Sam Wilson a former United States Air Force pararescue airman, who became Falcon and member of the Avengers.",
         "dimensions": "15.7 (H) x 10.6 (W) x 9.8 (L)",
         "price": 119.99,
-        "category": 3,
+        "category": 8,
         "rating": 4.6,
         "image_url": "",
         "image": "KPW015_MAE_Falcon_380x380.png"
@@ -218,7 +218,7 @@
         "description": "Wanda Maximoff, Daughter of Magneto is better know as The Scarlet Witch. She holds the power to manipulate the odds in her favor and harness control to create chaos magic with her telekinetic abilities. In the MCU, Maximoff is played by Elizabeth Olsen.",
         "dimensions": "8.2 (H) x 5.9 (W) x 4.3 (L)",
         "price": 124.99,
-        "category": 3,
+        "category": 8,
         "rating": 4.8,
         "image_url": "",
         "image": "KPW016_MAE_ScarletWitch_380x380.png"
@@ -233,7 +233,7 @@
         "description": "Gimli was a respected dwarf warrior in Middle-earth during the Great Years. He was a founding member of the Fellowship of the Ring, and was the only one of the dwarves to readily fight alongside the elves in the war against Sauron at the end of the Third Age.",
         "dimensions": "8.2 (H) x 7.0 (W) x 7.8 (L)",
         "price": 129.99,
-        "category": 2,
+        "category": 4,
         "rating": 4.7,
         "image_url": "",
         "image": "KPW018_LOTR_Gimli_380x380.png"
@@ -248,7 +248,7 @@
         "description": "Gandalf the Gray, came from the West of Middle Earth in the Third Age to fight Sauron. Gandalf accompanied Thorin II Shield of Oak in the mission to recover Erebor and later was a member of the Fellowship of the Ring.",
         "dimensions": "9.0 (H) x 6.6 (W) x 6.6 (L)",
         "price": 129.99,
-        "category": 2,
+        "category": 4,
         "rating": 4.7,
         "image_url": "",
         "image": "KPW019_LOTR_Gandalf_380x380.png"
@@ -263,7 +263,7 @@
         "description": "The Nazgul, were originally mortal men. Sauron gave them the Nine Rings of Power in order to enslave them to his will. The Nazgûl were condemned to exist only in the spectral world, their lives were so stretched until their very existence became torture.",
         "dimensions": "8.6 (H) x7 (W) x 8.6 (L)",
         "price": 129.99,
-        "category": 2,
+        "category": 4,
         "rating": 4.8,
         "image_url": "",
         "image": "KPW020_LOTR_Nazgul_380x380.png"
@@ -278,7 +278,7 @@
         "description": "The friendly and cruel Smeagol, better known as Gollum, in a Deluxe edition, which includes two pose options. Produced based on original references of the film, in limited edition, made of polystone with manual painting.",
         "dimensions": "4.7 (H) x 3.9 (W) x 4.7 (L)",
         "price": 99.99,
-        "category": 2,
+        "category": 4,
         "rating": 4.4,
         "image_url": "",
         "image": "KPW021_LOTR_Gollum_380x380.png"
@@ -293,7 +293,7 @@
         "description": "With a look that perfectly balances classic elements, reminiscent of the iconic Bronze Age from the late 1980s, with modern details in tactical fabric textures in Kevlar and seams in their costumes and capes, this is one of the most awaited pieces of the DC line. In limited deluxe edition, made of polystone and handpainted.",
         "dimensions": "9.8 (H) x 8.6 (W) x 9.4 (L)",
         "price": 199.99,
-        "category": 4,
+        "category": 1,
         "rating": 4.7,
         "image_url": "",
         "image": "KPW023_DC_BatmanRobin_380x380.png"
@@ -308,7 +308,7 @@
         "description": "Presenting the 'coolest' enemy of the Dark Knight, Mr. Freeze, walking on a base with industrial floors where sculptures of ice stalagmites spring up. An icy mist comes out of the barrel indicating the firing of his deadly freezing weapon. Wearing his survival suit, with the peculiar transparent dome covering his head.",
         "dimensions": "6.2 (H) x 3.9 (W) x 5.1 (L)",
         "price": 119.99,
-        "category": 4,
+        "category": 1,
         "rating": 4.6,
         "image_url": "",
         "image": "KPW024_DC_MrFreeze_380x380.png"
@@ -323,7 +323,7 @@
         "description": "On a base that represents the arid and rocky terrain of war and fire on the planet Apokolips, Diana, the Amazon princess and Earth’s greatest heroine, confronts the powerful ruling tyrant of this desolate world.",
         "dimensions": "18.5 (H) x 21.2 (W) x 15.3 (L)",
         "price": 799.99,
-        "category": 4,
+        "category": 1,
         "rating": 4.8,
         "image_url": "",
         "image": "KPW025_DC_WWvsDarkseid_380x380.png"
@@ -338,7 +338,7 @@
         "description": "In his most classic look, Martian Manhunter brings the iconic hero of the planet red floating on a base that refers to the arid and rocky terrain of Mars, from where the tentacles of a mysterious underground alien creature emerge in search of the hero’s capture.",
         "dimensions": "12.2 (H) x 6.6 (W) x 6.2 (L)",
         "price": 129.99,
-        "category": 4,
+        "category": 1,
         "rating": 4.6,
         "image_url": "",
         "image": "KPW026_DC_MartianManhunter_380x380.png"
@@ -353,7 +353,7 @@
         "description": "Kara Zor-L, the Power Girl was cousin to Kal-L, the Superman of Earth-2. During the Crisis on Infinite Earths she ended up surviving the merger between Earth-1 and Earth-2, but lost her memory. At first, she thought she was a cousin to the Superman of that Universe, which later proved to be false. In the meantime, she adopted the identity of Karen Starr and founded a software company, in addition to participating in the International Justice League and the Justice Society of America, where she became the team’s first female leader.",
         "dimensions": "9.8 (H) x 6.6 (W) x 7.0 (L)",
         "price": 129.99,
-        "category": 4,
+        "category": 1,
         "rating": 4.7,
         "image_url": "",
         "image": "KPW027_DC_Powergirl_380x380.png"
@@ -368,7 +368,7 @@
         "description": "Poison Ivy is one of the greatest antagonists in the Batman villain gallery, described as one of the most notorious eco-terrorists in the world. With her classic costume, the red-haired villain who uses plant toxins and pheromones to control minds and create mutant plants, stands out on a tree base with realistic almost organic textures.",
         "dimensions": "7.8 (H) x 5.5 (W) x 5.1 (L)",
         "price": 139.99,
-        "category": 4,
+        "category": 1,
         "rating": 4.7,
         "image_url": "",
         "image": "KPW028_DC_PoisonIvy_380x380.png"
@@ -383,7 +383,7 @@
         "description": "One of the most impressive sequences in the film, now also beautifully represented in the 'Clever Girl' Deluxe Art Statue, emulating the skilled hunter’s fall into the clutches of the fierce predator, on a base of wild terrain with the classic franchise logo on the front.",
         "dimensions": "9.9 (H) x 10.2 (W) x 6.7 (L)",
         "price": 259.99,
-        "category": 2,
+        "category": 3,
         "rating": 4.7,
         "image_url": "",
         "image": "KPW029_JP_CleverGirl_380x380.png"
@@ -398,7 +398,7 @@
         "description": "Dr. Ian Malcolm is a specialist in the segment of mathematics known as Chaos Theory. He is among the main characters of Jurassic Park and was the protagonist of Jurrassic Park: The Lost World. ",
         "dimensions": "11.0 (H) x 11.0 (W) x 7.0 (L)",
         "price": 119.99,
-        "category": 2,
+        "category": 3,
         "rating": 4.6,
         "image_url": "",
         "image": "KPW030_JP_IanMalcolm_380x380.png"
@@ -413,7 +413,7 @@
         "description": "The Velociraptors in the Kitchen diorama is based on the original reference from the 1993 film Jurassic Park.",
         "dimensions": "11.0 (H) x 12.9 (W) x 8.2 (L)",
         "price": 199.99,
-        "category": 2,
+        "category": 3,
         "rating": 4.7,
         "image_url": "",
         "image": "KPW031_JP_VelociraptorsInTheKitchen_380x380.png"
@@ -428,7 +428,7 @@
         "description": "Based on the book Jurassic Park by Michael Crichton, the Universal Pictures film directed by Steven Spielberg that started the film franchise, was a landmark in theaters in 1993, winner in three categories at the 66th Oscar ceremony.",
         "dimensions": "7.6 (H) x 5.5 (W) x 5.3 (L)",
         "price": 119.99,
-        "category": 2,
+        "category": 3,
         "rating": 4.5,
         "image_url": "",
         "image": "KPW032_JP_JohnHammond_380x380.png"
@@ -443,7 +443,7 @@
         "description": "In 1993, Universal Studios, along with Steven Spielberg and Stan Winston Studios, made history in cinema history with Jurassic Park. An epic film that combined the highest CGI technology, exquisite engineering and incredible locations, with the best talents and professionals that Hollywood had to offer, resulting in one of the most emblematic masterpieces of the ninth art.",
         "dimensions": "8.2 (H) x 9.8 (W) x 18.5 (L)",
         "price": 129.99,
-        "category": 2,
+        "category": 3,
         "rating": 4.6,
         "image_url": "",
         "image": "KPW033_JP_JungleExplorer_380x380.png"
@@ -458,7 +458,7 @@
         "description": "Ezio Auditore da Firenze is one of the noble protagonists of the Assassin’s Creed vide game series. Born in the city of Firenze, Italy, he was an influential member of the Order of Assassins.",
         "dimensions": "8.2 (H) x 5.1 (W) x 5.9 (L)",
         "price": 119.99,
-        "category": 2,
+        "category": 7,
         "rating": 4.6,
         "image_url": "",
         "image": "KPW035_AC_EzioAuditore_380x380.png"
@@ -473,7 +473,7 @@
         "description": "In Assassin’s Creed: Origins the story takes place in the Ptolemaic Kingdom in Ancient Egypt and speaks of Bayek, a medjai, who works to protect his people from threats. The plot serves as the beginning of the series, showing the origins of the struggle between Assassins who want peace through free will and the Templars, who have the same objective but through order.",
         "dimensions": "14.0 (H) x 12.0 (W) x 8.0 (L)",
         "price": 129.99,
-        "category": 2,
+        "category": 7,
         "rating": 4.7,
         "image_url": "",
         "image": "KPW036_AC_Beyek_380x380.png"
@@ -594,7 +594,7 @@
         "dimensions": "17.3 (H) x 15.7 (W) x 14.5 (L)",
         "price": 129.99,
         "category": 2,
-        "rating": 4.5,
+        "rating": 4.7,
         "image_url": "",
         "image": "KPW044_DND_VengerWithNightmare_380x380.png"
       }

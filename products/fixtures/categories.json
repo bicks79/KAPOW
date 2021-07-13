@@ -3,32 +3,64 @@
       "pk": 1,
       "model": "products.category",
       "fields": {
-        "name": "gaming",
-        "friendly_name": "Gaming"
+        "name": "dc_comics",
+        "friendly_name": "DC Comics"
       }
     },
     {
       "pk": 2,
       "model": "products.category",
       "fields": {
-        "name": "film_tv",
-        "friendly_name": "Film & TV"
+        "name": "dungeons_dragons",
+        "friendly_name": "Dungeons & Dragons"
       }
     },
     {
       "pk": 3,
       "model": "products.category",
       "fields": {
-        "name": "marvel",
-        "friendly_name": "Marvel"
+        "name": "jurassic_park",
+        "friendly_name": "Jurassic Park"
       }
     },
     {
       "pk": 4,
       "model": "products.category",
       "fields": {
-        "name": "dc_comics",
-        "friendly_name": "DC Comics"
+        "name": "lotr",
+        "friendly_name": "LOTR"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.category",
+      "fields": {
+        "name": "thundercats",
+        "friendly_name": "Thundercats"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.category",
+      "fields": {
+        "name": "mortal_kombat",
+        "friendly_name": "Mortal Kombat"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.category",
+      "fields": {
+        "name": "assassins_creed",
+        "friendly_name": "Assassins Creed"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.category",
+      "fields": {
+        "name": "avengers_endgame",
+        "friendly_name": "Avengers: Endgame"
       }
     }
   ]
