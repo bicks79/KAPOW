@@ -74,6 +74,43 @@ body{
     margin: 45px 0px 25px;
 }
 
+/*---------------------------------------- block content products.html ---*/
+.productsHeader-container {
+    padding-top: 125px;
+}
+
+.products-header {
+    text-align: center;
+}
+
+.header-text {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card {
+    border: none;
+    margin-top: 15px;
+}
+
+.card-body {
+    padding-bottom: 0px;
+}
+
+.product-price {
+    margin-bottom: 0px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.card-footer {
+    padding-top: 0px;
+    background-color: #fff;
+    border: none;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
 /*---------------------------------------- buttons ---*/
 
 .btn {
@@ -265,8 +302,13 @@ body{
     z-index: 10;
 }
 
+/*containers*/
 .header-container {
     padding-top: 164px;
+}
+
+.productsHeader-container {
+    padding-top: 200px;
 }
 
 .user-options {

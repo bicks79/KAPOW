@@ -86,7 +86,7 @@
         "category": 2,
         "rating": 4.7,
         "image_url": "",
-        "image": "KPW006_TC_MummRa_380x380.png"
+        "image": "KPW006_TC_LionO_380x380.png"
       }
     },
     {
@@ -180,21 +180,6 @@
       }
     },
     {
-      "pk": 13,
-      "model": "products.product",
-      "fields": {
-        "sku": "KPW013",
-        "name": "Black Widow",
-        "description": "Scarlett Johansson plays Natasha Romanoff also known as Black Widow in the Marvel Cinematic Universe. Natasha is one of the most well known spies and assassins in the whole world.",
-        "dimensions": "8.3 (H) x 3.3 (W) x 7.9 (L)",
-        "price": 119.99,
-        "category": 3,
-        "rating": 4.5,
-        "image_url": "",
-        "image": "KPW013_MAE_BlackWidow_380x380.png"
-      }
-    },
-    {
       "pk": 14,
       "model": "products.product",
       "fields": {
@@ -240,21 +225,6 @@
       }
     },
     {
-      "pk": 17,
-      "model": "products.product",
-      "fields": {
-        "sku": "KPW017",
-        "name": "Legolas",
-        "description": "Legolas, was a Forest Elf who was part of the Fellowship of the Ring in the Third Age. With his keen eyesight, sensitive hearing, and excellent aim, Legolas was a valuable resource for the Fellowship in their quest to return the one ring to Mount Doom.",
-        "dimensions": "9.0 (H) x 5.5 (W) x 6.6 (L)",
-        "price": 129.99,
-        "category": 2,
-        "rating": 4.8,
-        "image_url": "",
-        "image": "KPW017_LOTR_Legolas_380x380.png"
-      }
-    },
-    {
       "pk": 18,
       "model": "products.product",
       "fields": {
@@ -281,7 +251,7 @@
         "category": 2,
         "rating": 4.7,
         "image_url": "",
-        "image": "KPW018_LOTR_Gandalf_380x380.png"
+        "image": "KPW019_LOTR_Gandalf_380x380.png"
       }
     },
     {
@@ -312,21 +282,6 @@
         "rating": 4.4,
         "image_url": "",
         "image": "KPW021_LOTR_Gollum_380x380.png"
-      }
-    },
-    {
-      "pk": 22,
-      "model": "products.product",
-      "fields": {
-        "sku": "KPW022",
-        "name": "Orc Archer",
-        "description": "Stretching his bow and arrow to shoot his poison-tipped arrow, the monstrous being with greenish skin, long pointed ears, and serrated teeth prepares his attack, ready to do anything to defend his territory.",
-        "dimensions": "6.2 (H) x 5.5 (W) x 5.1 (L)",
-        "price": 139.99,
-        "category": 2,
-        "rating": 4.7,
-        "image_url": "",
-        "image": "KPW022_LOTR_OrcArcher_380x380.png"
       }
     },
     {
@@ -495,21 +450,6 @@
       }
     },
     {
-      "pk": 34,
-      "model": "products.product",
-      "fields": {
-        "sku": "KPW034",
-        "name": "The Final Scene",
-        "description": "This unforgettable and striking sequence from the movie Jurassic Park, comes to life and replicates the final scene of this 1993 Universal Studios superproduction. Faithful in the smallest details, relive that experience in your collection and don’t be surprised if in your subconscious you hear the unmistakable roar of the T-Rex every time you catch a glimpse of this piece.",
-        "dimensions": "10.6 (H) x 14.5 (W) x 18.9 (L)",
-        "price": 899.99,
-        "category": 2,
-        "rating": 5,
-        "image_url": "",
-        "image": "KPW034_JP_TheFinalScene_380x380.png"
-      }
-    },
-    {
       "pk": 35,
       "model": "products.product",
       "fields": {
@@ -536,7 +476,7 @@
         "category": 2,
         "rating": 4.7,
         "image_url": "",
-        "image": "KPW036_AC_ Beyek_380x380.png"
+        "image": "KPW036_AC_Beyek_380x380.png"
       }
     },
     {
@@ -652,11 +592,11 @@
         "name": "Venger",
         "description": "Venger is an evil wizard of great power who seeks to use the children’s magical weapons to bolster his power. He especially hates the kids not only because their refusal to part with their weapons prevents him from destroying Tiamat, The Hall of Bones, and conquering the realm, but also because they are pure of heart.",
         "dimensions": "17.3 (H) x 15.7 (W) x 14.5 (L)",
-        "price": 99.99,
+        "price": 129.99,
         "category": 2,
         "rating": 4.5,
         "image_url": "",
-        "image": "KPW043_DND_DungeonMaster_380x380.png"
+        "image": "KPW044_DND_VengerWithNightmare_380x380.png"
       }
     }
   ]
