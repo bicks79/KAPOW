@@ -3,7 +3,7 @@
 
         <!-- all products dropdown -->
         <li class="nav-item dropdown">
-            <a href="" class="nav-link mr-5" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a href="" class="nav-link" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
             <div class="dropdown-menu" aria-labelledby="all-products-link">
@@ -16,7 +16,7 @@
 
         <!-- dc-comics dropdown -->
         <li class="nav-item dropdown">
-            <a href="" class="nav-link mr-5" id="dc-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a href="" class="nav-link" id="dc-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 DC Comics
             </a>
             <div class="dropdown-menu" aria-labelledby="dc-link">
@@ -26,7 +26,7 @@
 
         <!-- film & tv dropdown -->
         <li class="nav-item dropdown">
-            <a href="" class="nav-link mr-5" id="film-tv-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a href="" class="nav-link" id="film-tv-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Film & TV
             </a>
             <div class="dropdown-menu" aria-labelledby="film-tv-link">
@@ -34,23 +34,25 @@
                 <a href="{% url 'products' %}?category=jurassic_park" class="dropdown-item">Jurassic Park</a>
                 <a href="{% url 'products' %}?category=lotr" class="dropdown-item">LOTR</a>
                 <a href="{% url 'products' %}?category=thundercats" class="dropdown-item">Thundercats</a>
+                <a href="{% url 'products' %}?category=dungeons_dragons,jurassic_park,lotr,thundercats" class="dropdown-item">All Film & TV</a>
             </div>
         </li>
 
         <!-- gaming -->
         <li class="nav-item dropdown">
-            <a href="" class="nav-link mr-5" id="gaming-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a href="" class="nav-link" id="gaming-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Gaming
             </a>
             <div class="dropdown-menu" aria-labelledby="gaming-link">
                 <a href="{% url 'products' %}?category=mortal_kombat" class="dropdown-item">Mortal Kombat</a>
                 <a href="{% url 'products' %}?category=assassins_creed" class="dropdown-item">Assassins Creed</a>
+                <a href="{% url 'products' %}?category=mortal_kombat,assassins_creed" class="dropdown-item">All Gaming</a>
             </div>
         </li>
 
         <!-- marvel -->
         <li class="nav-item dropdown">
-            <a href="" class="nav-link mr-5" id="marvel-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a href="" class="nav-link" id="marvel-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Marvel
             </a>
             <div class="dropdown-menu" aria-labelledby="marvel-link">
