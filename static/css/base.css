@@ -203,6 +203,13 @@ body{
 }
 
 
+/*---------------------------------------- basket.html ---*/
+
+.container-basket {
+    margin-top: 164px;
+}
+
+
 /*---------------------------------------- buttons & badges ---*/
 
 /*--- button ---*/
@@ -288,6 +295,7 @@ body{
     animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
+    cursor: pointer;
 }
 
 /*--- call to action - w3 schools ---*/
