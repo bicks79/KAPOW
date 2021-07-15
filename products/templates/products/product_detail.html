@@ -51,10 +51,28 @@
                         <div class="form-row">
                             <div class="col-12">
                                 <p class="form-text"><strong>Quantity</strong></p>
-                                <div class="form-group w-50">
+                                <div class="form-group form-group-quantity">
                                     <div class="input-group">
-                                        <input class="form-control qty_input" type="number" name="quantity" value="1" min="1" max="99"
-                                        data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
+                                        <div class="input-group-prepend">
+                                            <button class="decrement-qty btn btn--qty"
+                                                data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
+                                                <span class="icon">
+                                                    <i class="fas fa-minus"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <input class="form-control qty_input" type="number"
+                                        name="quantity" value="1" min="1" max="99"
+                                        data-item_id="{{ product.id }}"
+                                        id="id_qty_{{ product.id }}">
+                                        <div class="input-group-append">
+                                            <button class="increment-qty btn btn--qty"
+                                                data-item_id="{{ product.id }}" id="increment-qty_{{ product.id }}">
+                                                <span class="icon">
+                                                    <i class="fas fa-plus"></i>
+                                                </span>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -72,4 +90,32 @@
            </div>
        </div>
    </div>
+
+   <footer id="footer">
+    <div class="container-fluid container-footer">
+        <div class="row d-lg-none">
+            <div class="col-12">
+                <h5 class="footer-text">KAPOW!</h5>
+            </div>
+        </div>
+        <div class="row footer-social d-lg-none">
+            <ul class="social-links">
+                <li class="list-inline-item social-item">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </li>
+                <li class="list-inline-item social-item">
+                    <i class="fab fa-facebook fa-lg"></i>
+                </li>
+                <li class="list-inline-item social-item">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+{% include 'products/includes/qty_input_script.html' %}
 {% endblock %}

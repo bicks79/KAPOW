@@ -14,6 +14,11 @@ html {
     text-align: center;
 }
 
+.form-control {
+    border: 1px solid;
+    border-color: #0e0e10;
+}
+
 /*--- anchor link hover function - www.codegrepper.com ---*/
 a, 
 a:hover, 
@@ -202,6 +207,18 @@ body{
     text-align: center;
 }
 
+/*--- product quantity adjustment ---*/
+.form-group-quantity {
+    width: 175px;
+    margin: 0 auto;
+}
+
+.qty_input {
+    text-align: center;
+}
+
+
+
 
 /*---------------------------------------- basket.html ---*/
 
@@ -220,10 +237,29 @@ body{
     border: none;
 }
 
+.btn--search {
+    background-color: #fff;
+    color: #0e0e10;
+    border: 1px solid;
+}
+
+.btn--qty {
+background-color: #fff;
+color: #0e0e10;
+border: 1px solid;
+}
+
 /*--- boutique ado - hover function ---*/
 .btn--search:hover,
 .btn--search:active,
 .btn--search:focus {
+    background: #0e0e10;
+    color: #ecece7;
+}
+
+.btn--qty:hover,
+.btn--qty:active,
+.btn--qty:focus {
     background: #0e0e10;
     color: #ecece7;
 }
@@ -351,16 +387,13 @@ body{
     color: #ecece7;
 }
 
-/*---------------------------------------- base.html ---*/
-.form-control {
-    border: 1px solid;
-    border-color: #0e0e10;
+.btn--basket-back,
+.btn--basket-add {
+    margin-top: 20px;
 }
 
-.btn--search {
-    background-color: #fff;
-    color: #0e0e10;
-}
+
+
 
 /*---------------------------------------- main_nav.html ---*/
 
