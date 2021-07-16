@@ -48,6 +48,17 @@ a:active {
 .toast-capper {
     height: 2px;
 }
+
+/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent; 
+    border-bottom: 10px solid black;
+    position: absolute;
+    top: -10px;
+    right: 36px;
 }
 
 /*---------------------------------------- delivery banner base.html ---*/
@@ -249,6 +260,13 @@ body{
     cursor: pointer;
 }
 
+/*---------------------------------------- basket.html - toast success.html ---*/
+
+.basket-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 
 /*---------------------------------------- buttons & badges ---*/
 
