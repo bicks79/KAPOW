@@ -33,6 +33,23 @@ a:active {
     font-weight: bolder;
 }
 
+/*--- toasts ---*/
+.container-messages {
+    position: fixed;
+    top: 75px;
+    right: 15px;
+    z-index: 9999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+}
+
 /*---------------------------------------- delivery banner base.html ---*/
 
 .free-delivery-banner {
