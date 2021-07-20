@@ -19,7 +19,6 @@ Insert site image here
 
 ## [2|FEATURES](#features)
 - [Existing Features](#existing-features)
-- [Applications](#applications)
 - [Future Implications](#future-implications)
 ---
 
@@ -49,58 +48,83 @@ Insert site image here
 - [Code](#code)
 - [Acknowledgements](#acknowledgements)
 
+
 ---
 ## UX
 ---
+
 ### PROJECT GOALS
 *The purpose of KAPOW! is...*
+To create an interactive, user friendly, e-commerce website that fulfills the needs of the consumer.
+By providing a secure shopping platform, the user is encouraged to create a personal account where they can keep track of previous orders and feel safe in the knowledge that they can make return purchases securley and with minimal effort.
+
 
 ### USER GOALS
 *KAPOW! is targeted at...*
+ - Collectors of high quality statues and figurines.
+ - Film, TV and Gaming entushaists.
+ - Specific fanbases, such as Marvel and DC comics.
+
 
 ### DEVELOPER GOALS
 *As the developer of KAPOW!, the goal is to...*
+ - Provide an attractive, user friendly site that engages the user.
+ - Encourage the user to create a personal account and target them with future advertising.
+ - Provide a safe and secure shopping environment for the user.
+ - Ensure the website is easily navigated.
+ - Provide as much information to the user about their purchases and spending totals. 
+
 
 ### USER STORIES
 *To ensure that user needs were met, KAPOW! was created with the following considerations...*
 
 Insert user stories excel sheet here.
 
+
 ### DESIGN CHOICES
 *KAPOW! was created to be visually appealing by implementing the following design choices...*
 
 #### Structure & layout
 As an e-commerce site, KAPOW! needed to be structured in a way that would be familiar to users when shopping online.
-Providing a positive experience with secure, engaging features would encourage users to return to the site and make future purchases. 
-By employing the use of templates, the basic structure would be in place, and provide a solid platform on which to build the project.
-[Startbootstrap](https://startbootstrap.com/) creates free, open source, Bootstrap themes, templates, and code snippets for developers 
-to use on their projects. I found two templates in ['Shop Homepage'](https://startbootstrap.com/template/shop-homepage) and 
-['Shop Item'](https://startbootstrap.com/template/shop-item) that were ideal for me to base KAPOW! on.
+Providing a positive experience with secure, engaging features would encourage users to return to the site and make future purchases. By employing the use of templates, the basic structure would be in place, and provide a solid platform on which to build the project. The initial idea was to use a template from [Startbootstrap](https://startbootstrap.com/).
+[Startbootstrap](https://startbootstrap.com/), creates free, open source, Bootstrap themes, templates and code snippets for developers to use on their projects. I found two templates in ['Shop Homepage'](https://startbootstrap.com/template/shop-homepage) and ['Shop Item'](https://startbootstrap.com/template/shop-item) that were ideal for me to base KAPOW! on.
+However, due to time restrictions, I decided to follow the structure and layout from the previous mini project
+[Boutique Ado](https://github.com/ckz8780/boutique_ado_v1). While not original, it provided me with the best resource to build my project.
 
-Insert screencaps of startbootstrap templates here.
 
 #### Colourscheme
 The idea of KAPOW!, was to create a comic book like site that would provide familiarity to its users. 
 The colourscheme needed to reflect that, so I played around with the use of bold colours and stark contrast to re-create the 
 feel of a comic book.  [RALcolorchart.com](https://www.ralcolorchart.com/), had a wide range of colours to choose from and 
 provided HEX, RGB and CMYK code to use.
+[imagecolorpicker.com](https://imagecolorpicker.com/), allowed me to use my hero-image as a colour template and I used this to ensure that the button colour matched the KAPOW! red in the hero-image.
 
 
 ### WIREFRAMES
 *KAPOW! was structured in the following way...*
 
+
 ---
 ## FEATURES
 ---
+
 ### EXISTING FEATURES
 *KAPOW! has utilised the following features...*
-
-### APPLICATIONS
-*KAPOW! has utilised the following applications...*
+ - Simple navigation with a collapsable navigation button for smaller devices.
+ - A dropdown menu for each category, allowing the user to find a specific group of products.
+ - A functional searchbar, allowing users to find a group of, or single items from the store.
+ - Full product information allowing the user to find learn about the item before they decide to buy.
+ - A shopping basket that reacts to items added, quantities adjusted and items removed, giving the user a running total.
+ - A checkout review before purchasing, allowing users to re-cap and check their items before purchasing.  
 
 
 ### FUTURE IMPLICATIONS
 *KAPOW! has the potential to include the following functions...*
+- A fully functioning payment system, such as stripe to allow the users to securely purchase items.
+- Email confirmations to inform the user of their purchase.
+- Create a user profile, allowing the user to successfully manage previous orders and log transactions. 
+- Provide special offers and targeted advertidsing through the correct use of user information.
+
 
 ---
 ## TECHNOLOGIES USED
@@ -157,6 +181,8 @@ provided HEX, RGB and CMYK code to use.
 
  - [Pillow](https://en.wikipedia.org/wiki/Python_Imaging_Library), is a free and open-source additional library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats. Development of the original project, known as PIL, was discontinued in 2011. Subsequently, a successor project named Pillow forked the PIL repository and added Python 3.x support.
 
+ - [Crispy Forms](https://stackoverflow.com/tags/django-crispy-forms/info), is a Django application that lets you easily build, customize and reuse forms using your favorite CSS framework, without writing template code and without having to take care of annoying details.
+
 ### VALIDATION TOOLS
 *KAPOW! was validated by utilising the following tools...*
 
@@ -169,28 +195,31 @@ GIMP is released under GPL-3.0-or-later license and is available for Linux, macO
 
 *At the time of submission, all information provided about the above technologies was correct.* 
 
+
 ---
 ## TESTING
+---
+
 ### LANGUAGE TESTING
 
 ### FRAMEWORK TESTING
 
 ### DEBUGGING
 -Issue 1
-    -Initial setup of the project utilised the most up to date versions of Django/bootstrap.
+    - Initial setup of the project utilised the most up to date versions of Django/bootstrap.
     However, as I had decided to use the 'Boutique Ado' mini project to help structure my project, 
     it became apparent that some of the functions did not work as both Django and bootstrap had undergone updates.
     To fix this issue, it required reverting to earlier versions of Django/boostrap, and a small tutor
     support session to help ensure that everything would work correctly.
 
 - Issue 2
-    -While creating the database for my project, I ran into an issue when trying to upload the products.json file I had created.
+    - While creating the database for my project, I ran into an issue when trying to upload the products.json file I had created.
     I did not have an issue when loading the previous categories.json file, so the bug had to be located within the code for my products.json file.  I tried various amendments to the file, scanning back over the terminal to find the root cause.  I had very little success so decided to contact tutor support to guide me through the problem as swiftly as possible.
-    After going over the issue with tutor support, the issue I was having related to me adding the dimensions field into the file after I had ran migrations.  Once I re-ran migrations, and assigned a random string value to the field, the products file loaded without issue.   
+    After going over the issue with tutor support, the issue I was having related to me adding the dimensions field into the file after I had ran migrations.  Once I re-ran migrations, and assigned a random string value to the field, the products file loaded and the problem was resolved.   
 
-
-
-
+- Issue 3
+    - When setting up the secure checkout page I had an issue with the positioning of my user details form. This caused me several hours of investigation to find out why the rendering of my form was not successful.  I made the decision  to wipe the checkout.html template clean and start over and see if I had missed anything out from the original code.  I realised on re-coding that I had placed part of the form outside of the parent div and this was causing the code to render incorrectly.
+    While this did set me back, it proved a worth while exercise to elimiante a sloppy error.
 
 ---
 
@@ -198,9 +227,11 @@ GIMP is released under GPL-3.0-or-later license and is available for Linux, macO
 ## DEPLOYMENT
 ---
 
+
 ---
 ## CREDITS
 ---
+
 ### CONTENT
 *KAPOW! has utilised the following content...*
 
@@ -215,19 +246,19 @@ GIMP is released under GPL-3.0-or-later license and is available for Linux, macO
 *KAPOW! has utilised the following media...*
 
 - KAPOW! hero image provided by [Pixabay](https://pixabay.com/illustrations/kapow-comic-comic-book-fight-1601675/)
+- Product images were taken from [Iron Studios](https://ironstudios.com/)
 
 
 ### CODE
 *KAPOW! has utilised the following pre-written code...*
 
 - For HTML templates used to structure the layout of KAPOW!
-    - Startbootstrap - [Shop Homepage](https://startbootstrap.com/template/shop-homepage)
-    - Startbootstrap - [Shop Item](https://startbootstrap.com/template/shop-item)
+    - [Boutique Ado](https://github.com/ckz8780/boutique_ado_v1) 
 
 - For button effects and animations
     - Grow effect - [Hover.css](https://ianlunn.github.io/Hover/)
     - Shop now animation - [W3 schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate1)
-
+    - Some button hover effects - [Boutique Ado](https://github.com/ckz8780/boutique_ado_v1)
 
 ### ACKNOWLEDGEMENTS
-*As the developer of KAPOW!, I would like to acknowledge the following people...* 
+*As the developer of KAPOW!, I would like to acknowledge the following people...*
